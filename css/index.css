@@ -1,1 +1,150 @@
 @import url(rest.css);
+
+
+.wrapper-continer-primri {
+    width: 100%;
+    max-width: 1507px;
+    margin-right: auto;
+    margin-left: 0;
+    display: flex;
+
+}
+
+.wrapper-contact-main {
+    width: 100%;
+    max-width: 530px;
+    margin: auto;
+    height: 100%;
+}
+
+.main-pci {
+    position: relative;
+    max-width: 791px;
+}
+
+.main-pci img {
+    filter: grayscale(100%);
+}
+
+.main-pci::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: url(../img/back-girl-index.png) no-repeat center center;
+    z-index: -1;
+    background-size: contain;
+}
+
+.title-main {
+    margin-bottom: 70px;
+}
+
+.title-main .k-smal-head {
+    position: relative;
+}
+
+.title-main .k-smal-head::before {
+
+    position: absolute;
+    content: '';
+    width: 180px;
+    height: 202px;
+    left: 39px;
+    top: 50px;
+    background: url(../img/more-k-small.png) no-repeat center center;
+}
+
+.title-main .title-main-txt {
+    margin-right: 25px;
+}
+
+.title-main .title-primir {
+    font-size: 23px;
+    font-weight: 500;
+    color: #999898;
+}
+
+.title-main .title-primir span {
+    color: #ec000a;
+}
+
+.title-main .sub-title-primir {
+    color: #818181;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.nav-head {
+    margin-bottom: 70px;
+}
+
+.nav-head ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-head ul li {}
+
+.nav-head ul li:hover a {
+    color: #f03c44;
+}
+
+.nav-head ul li:hover i:before {
+    color: #f03c44;
+}
+
+.nav-head ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #5a5a5a;
+    font-size: 14px;
+    transition: .3s;
+
+}
+
+.nav-head ul li a i {
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+
+.nav-head ul li a i::before {
+    transition: .3s;
+
+}
+
+.wrapper-contact-main .txt-haed {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 2.641;
+    color: #646464;
+    font-weight: 300;
+    margin-bottom: 50px;
+
+}
+
+.more-btn {
+    background: #f03c44;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 13px 20px;
+    display: inline-block;
+    color: #fff;
+    box-shadow: 0 5px 20px rgba(240, 60, 69, .5);
+    transition: .3s;
+
+}
+
+.more-btn:hover {
+
+    box-shadow: none
+}
+
+.more-btn i {
+    margin-right: 15px;
+    font-size: 17px;
+}

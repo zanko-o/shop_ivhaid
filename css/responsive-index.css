@@ -1,0 +1,31 @@
+@media screen and (max-width:1400px) {
+    .wrapper-contact-main{
+        max-width:400px;
+       
+    }
+    .main-pci{
+        max-width: 650px;
+    }
+    
+}
+@media screen and (max-width:1200px) {
+    .wrapper-contact-main{
+        max-width:450px;
+       
+    }
+    .main-pci{
+        max-width: 550px;
+    }
+    
+}
+@media screen and (max-width:992px) {
+    .wrapper-contact-main{
+        max-width:550px;
+        margin-top: 70px;
+       
+    }
+    .main-pci{
+        display: none;
+    }
+    
+}
