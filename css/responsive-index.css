@@ -1,6 +1,6 @@
 @media screen and (max-width:1400px) {
     .wrapper-contact-main{
-        max-width:400px;
+        max-width:530px;
        
     }
     .main-pci{
@@ -10,17 +10,21 @@
 }
 @media screen and (max-width:1200px) {
     .wrapper-contact-main{
-        max-width:450px;
+        max-width:530px;
        
     }
     .main-pci{
         max-width: 550px;
     }
+    .title-main {
+        margin-bottom: 70px;
+        margin-right: -50px;
+    }
     
 }
 @media screen and (max-width:992px) {
     .wrapper-contact-main{
-        max-width:550px;
+        max-width:580px;
         margin-top: 70px;
        
     }
