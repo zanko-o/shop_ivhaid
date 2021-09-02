@@ -25,80 +25,130 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-phone:before {
+.icon-facebook:before {
   content: "\e900";
-  color: #5a5a5a;
-}
-.icon-star-menu:before {
-  content: "\e901";
-  color: #5a5a5a;
-}
-.icon-telegram:before {
-  content: "\e902";
   color: #ababab;
 }
-.icon-twiter:before {
+.icon-flash-right:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-float-arrow-left:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-float-arrow-left-red:before {
   content: "\e903";
   color: #f03c44;
 }
-.icon-bag-shop:before {
-  content: "\e904";
-  color: #5a5a5a;
-}
-.icon-facebook:before {
-  content: "\e905";
-  color: #ababab;
-}
 .icon-google-plus:before {
-  content: "\e906";
+  content: "\e904";
   color: #ababab;
 }
 .icon-hamkari:before {
-  content: "\e907";
+  content: "\e905";
   color: #5a5a5a;
 }
 .icon-home:before {
-  content: "\e908";
+  content: "\e906";
   color: #5a5a5a;
 }
 .icon-instagram:before {
-  content: "\e909";
+  content: "\e907";
   color: #ababab;
 }
-.icon-maglat:before {
-  content: "\e90a";
+.icon-magalat-menu:before {
+  content: "\e908";
   color: #5a5a5a;
 }
-.icon-barcode:before {
+.icon-moshaver-1:before {
+  content: "\e909";
+}
+.icon-pardakht-home:before {
+  content: "\e90a";
+}
+.icon-phone:before {
   content: "\e90b";
-}
-.icon-car-shop:before {
-  content: "\e90c";
-}
-.icon-cart-shop:before {
-  content: "\e90d";
-  color: #f03c44;
-}
-.icon-Group-38:before {
-  content: "\e90e";
-}
-.icon-mark-shop:before {
-  content: "\e90f";
-}
-.icon-rezait-user:before {
-  content: "\e910";
+  color: #5a5a5a;
 }
 .icon-search:before {
-  content: "\e911";
+  content: "\e90c";
   color: #fff;
 }
-.icon-star:before {
-  content: "\e912";
+.icon-shop:before {
+  content: "\e90d";
+  color: #5a5a5a;
 }
-.icon-star-emty:before {
-  content: "\e913";
+.icon-star-brand:before {
+  content: "\e90e";
+  color: #5a5a5a;
+}
+.icon-star-menu:before {
+  content: "\e90f";
+  color: #5a5a5a;
+}
+.icon-star-rate:before {
+  content: "\e910";
   color: #d0d0d0;
 }
-.icon-asnad:before {
+.icon-telegram:before {
+  content: "\e911";
+  color: #ababab;
+}
+.icon-truck-1:before {
+  content: "\e912";
+}
+.icon-twitter:before {
+  content: "\e913";
+  color: #ababab;
+}
+.icon-zmant-kala:before {
   content: "\e914";
+}
+.icon-arrow-left-emty:before {
+  content: "\e915";
+}
+.icon-arrow-right:before {
+  content: "\e916";
+  color: #fff;
+}
+.icon-bag-plus-big .path1:before {
+  content: "\e917";
+  color: rgb(0, 0, 0);
+}
+.icon-bag-plus-big .path2:before {
+  content: "\e918";
+  margin-left: -0.841796875em;
+  color: rgb(0, 0, 0);
+}
+.icon-bag-plus-big .path3:before {
+  content: "\e919";
+  margin-left: -0.841796875em;
+  color: rgb(255, 255, 255);
+}
+.icon-bag-plus-big .path4:before {
+  content: "\e91a";
+  margin-left: -0.841796875em;
+  color: rgb(255, 255, 255);
+}
+.icon-bag-reverse:before {
+  content: "\e91b";
+}
+.icon-bag-shop:before {
+  content: "\e91c";
+  color: #5a5a5a;
+}
+.icon-bag-shop-more:before {
+  content: "\e91d";
+  color: #fff;
+}
+.icon-bar-code:before {
+  content: "\e91e";
+}
+.icon-catalog:before {
+  content: "\e91f";
+  color: #dc1c1c;
+}
+.icon-comment:before {
+  content: "\e920";
 }

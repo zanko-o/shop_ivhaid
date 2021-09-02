@@ -1,0 +1,20 @@
+@import url(fontiran.css);
+@import url(icon.css);پ
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: IRANSans,'icomoon',sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    height: 5000px;
+    direction: rtl;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
