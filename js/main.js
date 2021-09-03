@@ -3,7 +3,9 @@ const swiper_last_product = new Swiper('.swiper-last-product', {
     slidesPerView: 1.5,
     spaceBetween: 20,
     centeredSlides: true,
-
+    autoplay: {
+        delay: 3000,
+      },
     pagination: {
         el: '.swiper-pagination',
         type: 'bullets',
@@ -36,5 +38,5 @@ const swiper_last_product = new Swiper('.swiper-last-product', {
             spaceBetween: 20,
         }
     },
-    speed:100,
+    speed:800,
 });

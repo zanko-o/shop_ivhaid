@@ -1,0 +1,97 @@
+@import url(rest.css);
+
+footer {
+    position: relative;
+    background: #f9f9f9;
+    height: 500px;
+    padding-top: 50px;
+}
+
+footer::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    height: 70px;
+    background: url(../img/wave-footer.png) no-repeat;
+    background-size: cover;
+}
+
+footer .wapper-pic{
+
+    position: relative;
+}
+
+footer .wapper-pic .k-smal{
+
+    position: absolute;
+    top: 32%;
+    right: 0;
+
+}
+footer .wapper-pic .map-footer{
+
+    position: absolute;
+    left: 0;
+}
+footer .wrapper-footer {
+    width: 100%;
+    max-width: 54%;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: 220px;
+    text-align: justify;
+
+}
+footer .wrapper-footer .wrapper-footer-top{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer  .wrapper-footer-top ul{
+    
+   line-height: 2.3;
+}
+footer  .wrapper-footer-top ul li:hover a{
+    
+    color:#f03c44
+}
+footer  .wrapper-footer-top ul li a{
+    
+   color: #454545;
+   font-size: 14px;
+   font-weight: 300;
+   transition: .3s;
+}
+footer  .wrapper-footer-top .main{
+    
+    width: 100%;
+    max-width: 50%;
+}
+footer  .wrapper-footer-top .main .title-main{
+    
+    font-size: 23px;
+    font-weight: 500;
+    color: #999898;
+    margin-bottom: 5px;
+}
+footer  .wrapper-footer-top .main .title-main span{
+    
+    color: #ec000a;
+}
+footer  .wrapper-footer-top .main .sub-title-main{
+    color: #818181;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 20px;
+}
+footer  .wrapper-footer-top .main p{
+    
+        font-size: 14.5px;
+        color: rgb(100, 100, 100);
+        line-height: 2.3;
+}

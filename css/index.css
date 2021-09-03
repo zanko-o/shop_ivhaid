@@ -223,7 +223,7 @@
 .swiper-last-product .wrapper-slier figure {
     text-align: center;
     margin-bottom: 20px;
-
+    transition: .5s;
 }
 
 .swiper-last-product .wrapper-slier .title-box-slider {
@@ -253,10 +253,15 @@
 }
 .swiper-last-product .wrapper-slier:hover .veiw-product {
 
-    
     transform: translate(-50%,-50%);
     opacity: 1;
     visibility: visible;
+}
+.swiper-last-product .wrapper-slier:hover figure  {
+
+
+   transform: translateX(35%);
+    
 }
 .swiper-last-product .wrapper-slier .veiw-product i{
     font-size: 20px;

@@ -11,9 +11,7 @@
 
 html {
   line-height: 1.15;
-  
   -webkit-text-size-adjust: 100%;
-  
 }
 
 body {
@@ -22,6 +20,7 @@ body {
   height: 5000px;
   font-size: 16px;
   font-weight: normal;
+  overflow-x: hidden;
 }
 
 main {
@@ -30,7 +29,7 @@ main {
 
 h1 {
   font-size: 2em;
- margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 hr {
@@ -41,13 +40,16 @@ hr {
   overflow: visible;
   /* 2 */
 }
-i{
+
+i {
   vertical-align: middle;
 }
-img{
+
+img {
   max-width: 100%;
   height: auto;
 }
+
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -61,9 +63,10 @@ a {
   color: inherit;
 }
 
-ul{
+ul {
   list-style: none;
 }
+
 abbr[title] {
   border-bottom: none;
   /* 1 */
